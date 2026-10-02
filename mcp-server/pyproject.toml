@@ -1,0 +1,9 @@
+[project]
+name = "chronos-mcp"
+version = "0.1.0"
+description = "MCP server exposing historical time-management techniques"
+requires-python = ">=3.10"
+dependencies = [
+  "mcp[cli]>=1.2.0",
+  "loguru>=0.7.2",
+]
